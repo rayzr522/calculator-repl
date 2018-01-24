@@ -1,4 +1,5 @@
 #!/bin/bash
 cd "$(dirname "$0")/.." || exit 1
-if [ ! -d ./build ]; then mkdir ./build; fi
-gcc ./main.c -o ./build/calculator
+rm -rf ./build
+mkdir ./build
+g++ ./main.cpp -o ./build/calculator-repl
