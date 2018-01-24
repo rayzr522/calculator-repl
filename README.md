@@ -1,5 +1,7 @@
 # Calculator REPL
 
+> A simple REPL calculator program written in C++ for learning purposes
+
 This is my attempt at making a REPL calculator in C++. This is one of my first projects in **C++**, so I'll be surprised if I even manage to compile this thing.
 
 ## Usage
